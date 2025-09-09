@@ -9,4 +9,32 @@ def readfiles():
     print(me.readlines())
 #readfiles
 def filepointer():
+    #opening files with with
+    with open('sample.txt','r') as file:
+        #so seek goes the character then completes the rest of file in a complete 
+        file.seek(62)
+        #storing the data in a variable
+        data=file.read()
+        #printing the output
+        print(data)
+#filepointer()
+def openFile():
+    #using with as normal
+    #so what happens with the 'w' arguments is that it overwrites the text
+    #and if there is no text it creates a new file
+    with open('sample2.txt','w') as file:
+        #so writing a new line we use the \n for next line
+        file.write("this is a new block of code\n this is a new line of text")
+        #going to the next line
+#openFile()
+def AddingContent():
+    #without overwriting the the existing file contents
+    # the append arguments can be used
+    with open('sample2.txt','a') as file:
+        #wring a new line below
+        file.write("\nThankyou for being part of the journey")
+#AddingContent()
+def writingMultiple():
+    #to write mutiple lines 
+    #to be more effective we will store in a list
     

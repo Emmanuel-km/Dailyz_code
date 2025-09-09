@@ -1,0 +1,4 @@
+Python is high level, general-purpose
+programing language. Its design philosophy
+emphasises code readablity with the use of
+significant indentation
