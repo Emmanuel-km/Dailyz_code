@@ -16,8 +16,21 @@ def EnterNumber():
         if is_numbergreater or is_numberless:
             print("not in the range")
             print("enter number again")
+            #raising exceptions
+            #raise Exception("notBetweenRange")
             EnterNumber()
     except ValueError:
         print("you entered a wrong data type please enter again")
-        EnterNumber()
+        #EnterNumber()
+    #else will continue if there are no exceptions found
+    else:
+        print("you have entered correct number")
+    #finally will excute even if there is a error and is a practice 
+    # to avoid complete crash of the program
+    #example:
+    #enter number between 1 and 10: tyu
+    #you entered a wrong data type please enter again
+    #you either found an errror or not
+    finally:
+        print("you either found an errror or not")
 EnterNumber()

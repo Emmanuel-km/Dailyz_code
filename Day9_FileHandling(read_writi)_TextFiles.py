@@ -46,3 +46,20 @@ def writingMultiple():
         with open('sample2.txt','a') as file:
             file.writelines(f"\n{i}")
 #writingMultiple()
+
+#handling files with try block to handle exceptions
+def handlingFiles():
+    try:
+        with open('file_utf.txt','r') as file:
+            #intentionally making an error by opening 
+            #empty files
+            line=file.readline()
+            print(line)
+    #catching all errors
+    except:
+        print("enter correct details in the code") 
+    else:
+        print("the file had no errors at all")
+    finally:
+        print("the file has being handled")  
+handlingFiles() 
