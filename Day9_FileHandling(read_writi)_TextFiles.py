@@ -37,4 +37,12 @@ def AddingContent():
 def writingMultiple():
     #to write mutiple lines 
     #to be more effective we will store in a list
-    
+    #the user will input names of renewable energy sources examples
+    #separed by , then split and save the contents in sample2.txt
+    user_input=input("input types types of renewable energy sources separated by commers: ")
+    listReenSources=user_input.split(',')
+    #saving the list to the text file
+    for i in listReenSources:
+        with open('sample2.txt','a') as file:
+            file.writelines(f"\n{i}")
+#writingMultiple()
