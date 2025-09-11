@@ -1,0 +1,15 @@
+11-09-2025 09:58:31 DEBUG this is a debug message: 
+11-09-2025 09:58:31 ERROR this is an info message; 
+11-09-2025 09:58:31 WARNING This is a warning message; 
+11-09-2025 09:58:31 ERROR this is an error message; 
+11-09-2025 09:58:31 CRITICAL this is a critical message; 
+11-09-2025 09:58:48 DEBUG this is a debug message: 
+11-09-2025 09:58:48 ERROR this is an info message; 
+11-09-2025 09:58:48 WARNING This is a warning message; 
+11-09-2025 09:58:48 ERROR this is an error message; 
+11-09-2025 09:58:48 CRITICAL this is a critical message; 
+11-09-2025 09:59:01 DEBUG this is a debug message: 
+11-09-2025 09:59:01 ERROR this is an info message; 
+11-09-2025 09:59:01 WARNING This is a warning message; 
+11-09-2025 09:59:01 ERROR this is an error message; 
+11-09-2025 09:59:01 CRITICAL this is a critical message; 

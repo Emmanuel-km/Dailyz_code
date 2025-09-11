@@ -21,6 +21,7 @@ def EnterNumber():
             EnterNumber()
     except ValueError:
         print("you entered a wrong data type please enter again")
+        EnterNumber()
         #EnterNumber()
     #else will continue if there are no exceptions found
     else:
