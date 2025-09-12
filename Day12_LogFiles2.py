@@ -6,7 +6,7 @@ def RunningSecond():
     #as normal
     try:
         #user inputs the location of the files
-        user_filePath=input("enter the location of the file: ")
+        user_filePath=input('enter the location of the file: ')
         with open(user_filePath) as file:
             content=file.readlines()
             #counting the error logs
