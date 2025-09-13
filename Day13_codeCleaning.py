@@ -17,4 +17,4 @@
 #basic.log file
 
 #writing a clear and understandable code in roundup
-#
+#effeciency is the aim in the cleanliness of the code
