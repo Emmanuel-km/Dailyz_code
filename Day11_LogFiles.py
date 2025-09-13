@@ -46,5 +46,5 @@ def counting_logs():
         datefmt="%d-%m-%Y %H:%M:%S",
         filename="basic.log")
         logging.error("an error has occured")
-        
+    
 counting_logs()

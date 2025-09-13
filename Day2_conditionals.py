@@ -1,3 +1,4 @@
+import logging
 def conditionals():
     #if condition
     age=20
@@ -34,10 +35,20 @@ def exceptionsHandling():
     #so this code calls its function
     #when it finds any error without crashing
     try:
-        x=int(input("enter first number"))
-        y=int(input("enter second number"))
+        x=int(input("enter first number: "))
+        y=int(input("enter second number: "))
         division=x/y
         print(f"The division ➗ of {x} and {y} is {division}")
+    except ZeroDivisionError:
+        print("you entered a zero value so it can be worked on try again")
+        import logging
+        logging.basicConfig(
+        level=logging.ERROR,
+        format="%(asctime)s %(levelname)s %(message)s",
+        datefmt="%d-%m-%Y %H:%M:%S",
+        filename="basic.log")
+        logging.error("zerodivision has occured")
+        exceptionsHandling()
     except:
         exceptionsHandling()
 exceptionsHandling()

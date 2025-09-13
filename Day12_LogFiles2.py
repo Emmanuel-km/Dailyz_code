@@ -1,4 +1,5 @@
 def RunningSecond():
+    #this is handling edge cases and exceptions
     #errors associated
     #so in this session the user enters the location of 
     #the log files to be accessed will be handling

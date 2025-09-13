@@ -134,3 +134,9 @@
 11-09-2025 21:06:25 ERROR this is an error message; 
 11-09-2025 21:06:25 CRITICAL this is a critical message; 
 11-09-2025 21:23:36 ERROR an error has occured
+13-09-2025 08:00:08 ERROR zerodivision has occured
+13-09-2025 08:04:28 ERROR zerodivision has occured
+13-09-2025 08:17:21 ERROR the user has left blank space
+13-09-2025 08:37:47 ERROR the user has not entered a number
+13-09-2025 08:38:07 ERROR the user has not entered a number
+13-09-2025 08:38:10 ERROR the user has not entered a number
