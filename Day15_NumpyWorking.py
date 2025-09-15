@@ -39,4 +39,22 @@ arr5=np.arange(0,50,8,dtype=float)
 #advantage is that you can perform many task with this
 arr6=np.linspace(0,85,num=13,endpoint=True,retstep=True,dtype=float)
 
-#
+#performing under special arrays
+#zero arrays
+arr7=np.zeros((2,3),dtype=int,order='C')
+
+#ones arrays
+arr8=np.ones((2,4),dtype=float,order='F')
+
+#eye arrays
+arr9=np.eye(3,3,0,dtype=int,order='F')
+
+#Random arrays
+from numpy import random
+
+arr10=random.randint(3,45,(2,3))
+
+#random from a choice
+arr11=random.choice([6,7,11,9,0,98,75,41,23,56,78],size=(2,3))
+
+
