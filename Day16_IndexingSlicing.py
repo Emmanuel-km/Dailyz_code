@@ -14,5 +14,26 @@ def indexing():
     #changing a row in the array
     arr1[0,2]=[2,3,4,5]
     print(arr1)
-indexing()
+#indexing()
+def negativeIndexing():
+    print(arr1)
+    #accessing the second row in the first column
+    print(arr1[-2,1])
+    #acccessing it purely negative indexing
+    print(arr1[-2,-2])
+#negativeIndexing()
+def columnExtraction():
+    #to extract a column we use [:,]
+    print(arr1[:,2])
+#columnExtraction()
 
+#slicing
+
+#slicing ranges
+def slice():
+    arr2=np.arange(0,9)
+    #one d
+    arr3=arr2[3:]
+    print(arr3)
+    #two d
+slice()
