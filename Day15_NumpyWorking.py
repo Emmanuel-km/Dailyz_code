@@ -20,8 +20,9 @@ arr3=np.array([[1,3,5,7],[2,4,6,8]])
 
 #three-dimension
 #these are specialised two dimension
-arr4=np.array([[[1,2,3,4],[5,6,7,8]],[[9,10,11,12],[13,14,15,16]]])
+arr4=np.array([[[1,2,3,4],[5,6,7,8],[3,4,7,9]],[[9,10,11,12],[13,14,15,16],[2,2,1,2]]])
 
+print(arr4)
 #checking number of dimension of each array
 '''
 print(arr0.ndim)
@@ -47,7 +48,9 @@ arr7=np.zeros((2,3),dtype=int,order='C')
 arr8=np.ones((2,4),dtype=float,order='F')
 
 #eye arrays
+#returns a 2-d array that has ones in diagonal rest are zeros
 arr9=np.eye(3,3,0,dtype=int,order='F')
+
 
 #Random arrays
 from numpy import random
@@ -56,5 +59,3 @@ arr10=random.randint(3,45,(2,3))
 
 #random from a choice
 arr11=random.choice([6,7,11,9,0,98,75,41,23,56,78],size=(2,3))
-
-
