@@ -23,4 +23,18 @@ def ElementWiseOperations():
 
     #modulus
     print(f"the modulus of {a} and {b} is \n{(np.mod(a,b))}\n")
-ElementWiseOperations()
+#ElementWiseOperations()
+
+def universalFunctions():
+    #we will use universal function with the keyword
+    #frompyfunc()
+
+    #vectorising is another way of using the function
+    #by the numpy array
+
+    #numpy summations
+    #1.cummulative summation
+    arr3=np.array([2,5,18,32])
+    arr4=np.cumsum(arr3)
+    print(arr4)
+universalFunctions()
