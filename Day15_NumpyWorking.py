@@ -21,8 +21,6 @@ arr3=np.array([[1,3,5,7],[2,4,6,8]])
 #three-dimension
 #these are specialised two dimension
 arr4=np.array([[[1,2,3,4],[5,6,7,8],[3,4,7,9]],[[9,10,11,12],[13,14,15,16],[2,2,1,2]]])
-
-print(arr4)
 #checking number of dimension of each array
 '''
 print(arr0.ndim)
@@ -55,7 +53,16 @@ arr9=np.eye(3,3,0,dtype=int,order='F')
 #Random arrays
 from numpy import random
 
-arr10=random.randint(3,45,(2,3))
+arr10=random.standard_normal((3,3))
 
 #random from a choice
+#so this will produce random selections and map 
+#them into 2 by 3 matrix
 arr11=random.choice([6,7,11,9,0,98,75,41,23,56,78],size=(2,3))
+
+#3-d arrays more expaunded
+#Creating a shape that contains zero values in the
+#shape provided
+arr12=np.empty(shape=(5,6,4))
+#cheking number of dimension
+#print(arr12.ndim)

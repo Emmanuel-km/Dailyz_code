@@ -5,6 +5,7 @@ import Day15_NumpyWorking as d
 import numpy as np
 #indexing is used to locate a specific value(s) from arrays
 arr1=d.arr4
+arrK=d.arr10
 def indexing():
     #accesing a value from the second row second column
     #printing the result of the sum of the first and second value 
@@ -31,9 +32,31 @@ def columnExtraction():
 
 #slicing ranges
 def slice():
+    #slicing 3-d list
+    #so making arr2 with the two middle values of the first
+    #first array in arr1
+    arr2=(arr1[0][0][1:3])
+    print(arr2)
     arr2=np.arange(0,9)
     #one d
     arr3=arr2[3:]
-    print(arr3)
+    #print(arr3)
     #two d
-slice()
+#slice()
+
+#Array broadcasting
+def broadcasting():
+    #declaring the variable
+    arr4=np.array([2,4,9,1])
+    arr4+=10
+    print(arr4)
+#broadcasting()
+
+#Fancy indexing
+def FancyIndexing():
+    #boolean indexing
+    #using mask to meet requirement
+    mask=((arrK<0))
+    arrK[mask]=0
+    print(arrK)
+#FancyIndexing()
