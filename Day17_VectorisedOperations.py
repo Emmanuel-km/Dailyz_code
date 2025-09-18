@@ -37,4 +37,85 @@ def universalFunctions():
     arr3=np.array([2,5,18,32])
     arr4=np.cumsum(arr3)
     print(arr4)
-universalFunctions()
+    '''
+    Arithmetic Ufuncs:
+1. np.add: 
+2. np.subtract
+3. np.multiply
+4. np.divide
+5. np.floor_divide
+6. np.power
+7. np.mod
+8. np.abs: Element-wise absolute value.
+9. np.negative: Element-wise negation.
+
+Mathematical Ufuncs:
+1. np.sqrt: Square root of each element.
+2. np.exp: Exponential function (e^x) for each element.
+3. np.log, np.log10, np.log2: Natural logarithm, base-10 logarithm, and base-2 logarithm, respectively.
+4. np.sin, np.cos, np.tan: Trigonometric functions.
+5. np.arcsin, np.arccos, np.arctan: Inverse trigonometric functions.
+6. np.sinh, np.cosh, np.tanh: Hyperbolic trigonometric functions.
+7. np.arcsinh, np.arccosh, np.arctanh: Inverse hyperbolic trigonometric functions.
+
+Comparative Ufuncs:
+1. np.greater, np.greater_equal: Element-wise comparison for greater than and greater than or equal to.
+2. np.less, np.less_equal: Element-wise comparison for less than and less than or equal to.
+3. np.equal, np.not_equal: Element-wise comparison for equality and inequality.
+
+Logical Ufuncs:
+1. np.logical_and, np.logical_or, np.logical_xor: Element-wise logical operations.
+2. np.logical_not: Element-wise logical NOT operation.
+
+Bitwise Ufuncs:
+1. np.bitwise_and, np.bitwise_or, np.bitwise_xor: Element-wise bitwise operations.
+2. np.invert: Element-wise bitwise NOT operation (bitwise inversion).
+
+Rounding and Truncation Ufuncs:
+1. np.round: Round elements to the nearest integer or specified number of decimals.
+2. np.floor: Round elements down to the nearest integer.
+3. np.ceil: Round elements up to the nearest integer.
+4. np.trunc: Truncate decimal values, keeping only the integer part.
+
+Statistical Ufuncs:
+1. np.mean, np.median: Compute the mean and median of array elements.
+2. np.min, np.max: Finds the minimum and maximum values present in an array.
+3. np.std, np.var: Calculate the standard deviation and variance of elements.
+
+Special Ufuncs:
+1. np.isnan: Check for NaN (Not-a-Number) values in an array.
+2. np.isinf: Check for infinity values in an array.
+3. np.isfinite: Check for finite values in an array.
+4. np.unique: Find unique elements in an array.
+
+Trigonometric and Hyperbolic Ufuncs:
+1. np.deg2rad, np.rad2deg: Convert between degrees and radians.
+2. np.hypot: Calculate the hypotenuse of right triangles.
+    '''
+#universalFunctions()
+
+def vectorising():
+    #vectorising in numpy is performing calculations in
+    #  the entire array without
+    #loops
+    #using vectorision methods you can peform addition,
+    # subtractiion ...etc on arrays
+    #even logical operations 
+
+    #example
+    x=np.array([2,3,4,9])
+    y=(x%2==0)
+    print(y)
+
+    #matrix operation using vectorisation
+    
+    #example
+    a=np.array([[2,1],[3,5]])
+    b=np.array([[3,4],[2,1]])
+    #matrix opration by the keyword dot
+    #dotting a vector
+    #a⋅b= a1b1 + a2b2
+    results=np.dot(a,b)
+    print(results)
+
+vectorising()
