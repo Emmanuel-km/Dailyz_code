@@ -105,16 +105,17 @@ def vectorising():
     #example
     x=np.array([2,3,4,9])
     y=(x%2==0)
-    print(y)
+    #print(y)
 
     #matrix operation using vectorisation
     
     #example
-    a=np.array([[2,1],[3,5]])
-    b=np.array([[3,4],[2,1]])
+    a=np.array([[2,3],[3,1]])
+    b=np.array([[4,1],[2,1]])
     #matrix opration by the keyword dot
     #dotting a vector
     #a⋅b= a1b1 + a2b2
+    #this will be in 2*2 shape in a form of ([2][3][3][1])*([4][1] [2][1])
     results=np.dot(a,b)
     print(results)
 

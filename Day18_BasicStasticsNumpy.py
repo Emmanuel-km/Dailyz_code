@@ -8,6 +8,8 @@ def Aggrigates():
     y=np.array([[2,2,1],[1,2,4]])
 
     #summing up the row 
-    z=np.mean(x,y)
+    z=np.sum((x,y),axis=0)
     print(z)
-Aggrigates()
+#Aggrigates()
+
+#
