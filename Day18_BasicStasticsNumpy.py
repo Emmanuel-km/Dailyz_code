@@ -10,6 +10,10 @@ def Aggrigates():
     #summing up the row 
     z=np.sum((x,y),axis=0)
     print(z)
-#Aggrigates()
+
+    #summing up in a column
+    z=np.sum((x,y),axis=1)
+    print(z)
+Aggrigates()
 
 #
