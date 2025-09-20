@@ -13,6 +13,7 @@ def Aggrigates():
 
     #summing up in a column
     z=np.sum((x,y),axis=1)
+    z=np.average(x)
     print(z)
 Aggrigates()
 
