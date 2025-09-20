@@ -10,7 +10,7 @@
 
 import csv
 import numpy as np
-with open('NarokSolarMeasurements.csv','r') as file:
+with open('NarokSolarMeasurements.csv','r+') as file:
     #using the dict reader to find the relative_humidity
     #csvreader=csv.DictReader(file)
 
@@ -19,6 +19,7 @@ with open('NarokSolarMeasurements.csv','r') as file:
 
     #for skipping the first row
     next(csvreader)
+    count=0
     
     value=np.array([])
     for i in csvreader:
@@ -32,8 +33,9 @@ with open('NarokSolarMeasurements.csv','r') as file:
         #try catch block for coviniece
         try:
             value=np.append(value,i)
+            count+=1
         except:
             print("an error has been found")
             continue   
-    z=np.average(value)
+    z=np.sum(value)
     print(z)
