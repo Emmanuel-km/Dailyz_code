@@ -1,4 +1,5 @@
-#error handling is one core objectives in writing code 
+
+,,#error handling is one core objectives in writing code 
 #in a block so that it can catch errors(exceptions) while running
 #main importance is to prevent the program crashing unexpected
 #example:
