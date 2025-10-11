@@ -23,7 +23,7 @@ plt.title('variation in temperature')
 plt.xlabel('high temperaatue')
 plt.ylabel('low temperature')
 plt.plot()
-#plt.legend()
+plt.legend()
 plt.show()
 
 
