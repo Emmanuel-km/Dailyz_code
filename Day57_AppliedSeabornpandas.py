@@ -17,3 +17,8 @@ df=pd.read_csv('homeData.csv')
 df.dropna(inplace=True)
 #data
 data=df[['wind_speed','time']]
+
+#ploting the data
+
+sns.lineplot(data=data)
+plt.show()
