@@ -22,3 +22,5 @@ data=df[['wind_speed','time']]
 
 sns.lineplot(data=data)
 plt.show()
+
+#insights
