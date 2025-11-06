@@ -52,3 +52,4 @@ def exceptionsHandling():
     except:
         exceptionsHandling()
 exceptionsHandling()
+conditionals()
