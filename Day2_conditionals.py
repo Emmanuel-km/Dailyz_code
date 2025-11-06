@@ -51,7 +51,6 @@ def exceptionsHandling():
         exceptionsHandling()
     except:
         exceptionsHandling()
-#exceptionsHandling()
+exceptionsHandling()
 
-#running
-conditionals()
+
