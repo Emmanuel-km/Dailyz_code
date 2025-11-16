@@ -45,5 +45,6 @@ print(f"The number of words present in text are {count}")
 #🪵importance of loging
 """
 1. To identify errors and to record them in a place 
-2.
+2. To enhance data integrity- no data disappeares from any where
+3. Harmonize the code
 """
