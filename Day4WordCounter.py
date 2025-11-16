@@ -42,3 +42,4 @@ for i in sentence:
     count+=1
 #printing the outcome
 print(f"The number of words present in text are {count}")
+#🪵
