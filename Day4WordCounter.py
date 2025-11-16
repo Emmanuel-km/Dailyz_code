@@ -47,4 +47,12 @@ print(f"The number of words present in text are {count}")
 1. To identify errors and to record them in a place 
 2. To enhance data integrity- no data disappeares from any where
 3. Harmonize the code
+
 """
+
+#Advantages of logging 
+
+'''
+1. Error recognition 
+2. Storing future storage of fatigue 😞 misimal coreections
+'''
