@@ -12,4 +12,10 @@ started on SQL
 now working with api to induce the workflow
 
 
+key take aways
+
+understand simple logging file and sending them
+numpy simplifies and it's good,fast and efficient for mathematics
+pandas enhances the overview of datasets and Handle data
+
 """
