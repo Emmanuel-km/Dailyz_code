@@ -24,4 +24,8 @@ creating an energy sustainability webpage that comes handy
 
 creating a webpage that studies about energy availability of a place. showing what potential energy can be harnessed. transport the electricity emersed and benefit to the society. healthy concerns  and any other concerns 
 
+Also crating a webpage that predicts how efficient a company would save in the energy in terms of cost by replacing some equipments
+
+
+
 """
