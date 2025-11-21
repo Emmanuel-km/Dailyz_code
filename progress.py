@@ -27,5 +27,8 @@ creating a webpage that studies about energy availability of a place. showing wh
 Also crating a webpage that predicts how efficient a company would save in the energy in terms of cost by replacing some equipments
 
 
+finalizing 
+to have representative project and applying the knowledge 🤪 to real tangible projects
+
 
 """
