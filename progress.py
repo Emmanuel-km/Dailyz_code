@@ -19,6 +19,9 @@ understand simple logging file and sending them
 numpy simplifies and it's good,fast and efficient for mathematics
 pandas enhances the overview of datasets and Handle data
 
+Deliverables 
+creating an energy sustainability webpage that comes handy 
 
+creating a webpage that studies about energy availability of a place. showing what potential energy can be harnessed. transport the electricity emersed and benefit to the society. healthy concerns  and any other concerns 
 
 """
