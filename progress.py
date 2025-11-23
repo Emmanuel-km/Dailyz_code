@@ -31,4 +31,6 @@ finalizing
 to have representative project and applying the knowledge 🤪 to real tangible projects
 
 
+trying on deliverables
+
 """
