@@ -32,5 +32,7 @@ to have representative project and applying the knowledge 🤪 to real tangible 
 
 
 trying on deliverables
-Created a static website for energy intro 
+Created a static website for energy intro to git hub
+n
+working with weather API & Gemini API for the Ai touch
 """
