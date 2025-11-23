@@ -32,5 +32,5 @@ to have representative project and applying the knowledge 🤪 to real tangible 
 
 
 trying on deliverables
-
+Created a static website for energy intro 
 """
