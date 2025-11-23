@@ -37,4 +37,6 @@ n
 working with weather API & Gemini API for the Ai touch
 
 still working on the html view and flask app by python
+
+This is a large ⭕ 🦣 project to be complimplited in a week
 """
