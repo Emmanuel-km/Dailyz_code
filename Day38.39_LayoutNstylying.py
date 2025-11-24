@@ -7,7 +7,7 @@ months=['January','February','March','April','May','June']
 
 x=np.random.random(7)
 x=x+2
-#x=np.linspace(1,7,num=7,endpoint=True)
+x=np.linspace(1,7,num=7,endpoint=True)
 y=np.arange(1,8)
 
 
