@@ -13,6 +13,8 @@ except ValueError:
     breakpoint
 except TypeError:
     choice=0
+except Exception as e:
+    print("failed to catch {e}")
 def multiplication(x,y):
     return x*y
 def addition(x,y):
