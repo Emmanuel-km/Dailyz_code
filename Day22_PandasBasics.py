@@ -77,3 +77,7 @@ def series():
         print(dogseries)
     scalarValues()
 series()
+
+"""
+no idea understanding 😕 
+"""
