@@ -49,6 +49,7 @@ New roles kick in
 Fitting description 🪵.
 
 
-Loging in system 
+Loging in system
+loging in dynamic systems ensure every step is called 
 
 """
