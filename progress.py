@@ -52,4 +52,7 @@ Fitting description 🪵.
 Loging in system
 loging in dynamic systems ensure every step is called 
 
+program structure 
+a system has to have strure before being created
+
 """
