@@ -57,4 +57,6 @@ a system has to have strure before being created
 
 Adaptability
 this is creating your program such a way it can accept more changes of future and technology 
+
+dividing the system parts into blocks
 """
