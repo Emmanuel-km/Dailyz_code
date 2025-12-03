@@ -68,4 +68,6 @@ progress daily
 how data can be ambiguous
 we need to come up with ai research 
 also with the aim of research assistant 
+
+progress per chunk
 """
