@@ -65,5 +65,6 @@ the best
 logo making by canva
 progress daily
 
-how data can be ambiguous 
+how data can be ambiguous
+we need to come up with ai research 
 """
