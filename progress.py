@@ -72,4 +72,7 @@ also with the aim of research assistant
 progress per chunk
 
 the difference between consistency and persistence is the amount of work load output
+
+off topic
+Lagoon- encuplulated with 🌊 water
 """
