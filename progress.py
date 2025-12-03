@@ -70,4 +70,6 @@ we need to come up with ai research
 also with the aim of research assistant 
 
 progress per chunk
+
+the difference between consistency and persistence is the amount of work load output
 """
