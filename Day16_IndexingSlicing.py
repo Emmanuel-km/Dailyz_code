@@ -59,4 +59,4 @@ def FancyIndexing():
     mask=((arrK<0))
     arrK[mask]=0
     print(arrK)
-#FancyIndexing()
+FancyIndexing()
