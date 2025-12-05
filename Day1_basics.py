@@ -1,4 +1,6 @@
 #this is a simple calculator that combines string concantenation 
+# import math custom module
+import 
 print("Hello there this a calculator")
 print("Enter the operation needed:\n 1-multiplication \n2-addition \n 3-division \n4-subtraction \nany character to end")
 try:
