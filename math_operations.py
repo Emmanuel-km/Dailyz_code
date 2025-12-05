@@ -1,7 +1,7 @@
 import math
 import random
 def addition(x,y):
-    return print(x+y)
+    return x+y
 def subtraction(x,y):
     return print(x-y)
 def multiplication(x,y):
