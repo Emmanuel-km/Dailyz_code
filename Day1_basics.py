@@ -1,15 +1,15 @@
 #this is a simple calculator that combines string concantenation 
 # import math custom module
-import 
+import math_operations.py as k
 print("Hello there this a calculator")
 print("Enter the operation needed:\n 1-multiplication \n2-addition \n 3-division \n4-subtraction \nany character to end")
 try:
     choice=int(input("select a number:   "))
     list1=[1,2,3,4]
-    if choice not in list1:
-        raise TypeError
-    x=int(input("enter first number: "))
-    y=int(input("enter second number:  "))
+    while choice not in list1:
+        #raise TypeError
+        x=int(input("enter first number: "))
+        y=int(input("enter second number:  "))
 except ValueError:
     choice=0
     breakpoint
