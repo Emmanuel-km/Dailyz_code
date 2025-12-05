@@ -5,7 +5,7 @@ def addition(x,y):
 def subtraction(x,y):
     return x-y
 def multiplication(x,y):
-    return print(x*y)
+    return x*y
 def division(x,y):
     a=(x/y)
     a=math.floor(a)
