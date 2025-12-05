@@ -9,4 +9,4 @@ def multiplication(x,y):
 def division(x,y):
     a=(x/y)
     a=math.floor(a)
-    return print(a)
+    return a
