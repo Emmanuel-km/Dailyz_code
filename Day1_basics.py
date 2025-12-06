@@ -9,7 +9,7 @@ try:
     while choice not in list1:
         #raise TypeError
         choice=int(input("select a number:   "))
-    if choice==4:
+    if choice==5:
         break
     else:
         x=int(input("enter first number: "))
@@ -18,8 +18,10 @@ try:
         result=k.multiplication(x,y)
     if choice==2:
         result=k.addition(x,y)
-    if choice==1:
-        result=k.subtract(x,y)
+    if choice==3:
+        result=k.division(x,y)
+    if choice==4:
+        result=k.subtraction(x,y)
 except ValueError:
     choice=0
     breakpoint
