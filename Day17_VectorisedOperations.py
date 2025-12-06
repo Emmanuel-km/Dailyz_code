@@ -109,7 +109,7 @@ def vectorising():
 
     #matrix operation using vectorisation
     np.divide(a,b)
-    
+    np.abs(a,b)
     #example
     a=np.array([[2,3],[3,1]])
     b=np.array([[4,1],[2,1]])
