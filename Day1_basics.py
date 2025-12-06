@@ -7,6 +7,7 @@ try:
     choice=int(input("select a number:   "))
     list1=[1,2,3,4]
     while choice not in list1:
+        list1=[1,2,3,4]
         #raise TypeError
         choice=int(input("select a number:   "))
     if choice==5:
