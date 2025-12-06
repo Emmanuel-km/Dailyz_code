@@ -108,6 +108,7 @@ def vectorising():
     #print(y)
 
     #matrix operation using vectorisation
+    np.divide(a,b)
     
     #example
     a=np.array([[2,3],[3,1]])
