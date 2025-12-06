@@ -14,6 +14,8 @@ try:
     else:
         x=int(input("enter first number: "))
         y=int(input("enter second number:  "))
+    if choice==1:
+        result=k.multiplication(x,y)
 except ValueError:
     choice=0
     breakpoint
