@@ -29,7 +29,7 @@ except ValueError:
 except TypeError:
     choice=0
 except Exception as e:
-    print(f"failed to catch {e}")
+    print(f"failed to catch this expetions {e}")
 
 print("excuted SUCCEFFULLY")
 """testing"""
