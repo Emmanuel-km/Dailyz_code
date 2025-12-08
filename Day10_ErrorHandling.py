@@ -11,7 +11,7 @@
 def EnterNumber():
     #starting the try block
     try:
-        number=int(input("enter number between 1 and 10: "))
+        number=int(input("enter number between and10: "))
         is_numberless=number<1
         is_numbergreater=number>10
         if is_numbergreater or is_numberless:
