@@ -26,3 +26,4 @@ plt.xlabel('Days')
 plt.ylabel('deviation in temperature')
 plt.title('plot of deviation in temperature in\n Week 38 2025')
 plt.show()
+#best
