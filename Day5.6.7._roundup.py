@@ -21,3 +21,4 @@ def Tuesday_even_odd():
         print("enter a number please")
         Tuesday_even_odd()
 Tuesday_even_odd()
+#a good adjustment on the loging block 
