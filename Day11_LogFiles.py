@@ -1,3 +1,4 @@
+#use case of log files
 def createlog():
     #creating a logging files
     #logging is tracking events that happens when a program runs
