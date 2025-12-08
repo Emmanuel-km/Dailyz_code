@@ -35,3 +35,4 @@ plt.xlabel('Frequency (Hz)')
 plt.ylabel('Magnitude')
 plt.tight_layout()
 plt.show()
+#comparative outcome
