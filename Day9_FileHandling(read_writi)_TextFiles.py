@@ -8,6 +8,8 @@ def readfiles():
     me=open('story.txt','r')
     print(me.readlines())
 #readfiles
+#use case of file pointer
+#best use case case try block
 def filepointer():
     #opening files with with
     with open('sample.txt','r') as file:
