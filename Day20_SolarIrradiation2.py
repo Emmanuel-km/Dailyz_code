@@ -11,6 +11,7 @@ import pandas
 data=pandas.read_csv('NarokSolarMeasurements.csv')
 
 #looping columns in the data
-
-for col in data:
+#filter
+data.head(12)
+#for col in data:
     print(col)
