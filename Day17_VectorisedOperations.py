@@ -120,4 +120,4 @@ def vectorising():
     results=np.dot(a,b)
     print(results)
 
-vectorising()
+vectorising().
