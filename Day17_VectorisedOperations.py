@@ -22,6 +22,7 @@ def ElementWiseOperations():
     print(f"{a} raised to power {b} is\n {(np.power(a,b))}\n")
 
     #modulus
+
     print(f"the modulus of {a} and {b} is \n{(np.mod(a,b))}\n")
 #ElementWiseOperations()
 
