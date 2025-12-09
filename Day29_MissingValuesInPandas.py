@@ -28,3 +28,5 @@ for i in LIST:
         datefmt="%d-%m-%Y %H:%M:%S",
         filename="basic.log")
     logging.critical(f"The file [{file}] has null values ")
+
+# a need for complex analysis is required 
