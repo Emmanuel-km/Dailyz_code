@@ -14,4 +14,4 @@ data=pandas.read_csv('NarokSolarMeasurements.csv')
 #filter
 data.head(12)
 #for col in data:
-    print(col)
+    #print(col)
