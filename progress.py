@@ -84,5 +84,5 @@ castles to acquire and conquer
 python
 text 
 establish
-collaborate
+collaborate.
 """
