@@ -85,4 +85,7 @@ python
 text 
 establish
 collaborate.
+
+
+create a tool repo that has the basics stuff for building projects
 """
