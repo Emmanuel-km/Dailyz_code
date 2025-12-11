@@ -89,5 +89,5 @@ collaborate.
 
 create a tool repo that has the basics stuff for building projects
 
-A text engine for testing projects before launch start
+A text engine for testing projects before launch start.
 """
